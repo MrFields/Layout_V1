@@ -7,7 +7,7 @@ class Layout extends Component {
       return (
          <Fragment>
             <Navegation/>
-               <div className="container">
+               <div>
                   {this.props.children}
                </div>
                <Footer/>
